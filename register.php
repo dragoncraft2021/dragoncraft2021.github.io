@@ -34,7 +34,7 @@
     <div class="dws-wrapper">
         <div class="dws-form">
             <label class="tab active" for="tab-2" title="Вкладка 2">Регистрация</label>
-            <form class="tab-form active" method="post" action="vendor/signup.php">
+            <form class="tab-form active" method="post" action="register.php">
                 <div class="box-input">
                     <input class="input" id="login" name="login" type="login" required="Логин">
                     <label for="login">Введите Логин</label>
