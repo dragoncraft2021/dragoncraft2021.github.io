@@ -42,7 +42,7 @@ $('#sendMail').on("click", function() {
             }else{
                 $('#mailForm').trigger('reset');
 
-                window.location.href = "http://github.com/dragoncraft2021/dragoncraft2021.github.io/code.php";
+                window.location.href = "http://dragoncraft2021.github.io/code.php";
             }
             $("#sendMail").prop("disabled", false);
         }
