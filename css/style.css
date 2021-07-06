@@ -1,0 +1,49 @@
+.navbar {
+    color: #ffffff;
+    background-color: #007FFF;
+}
+
+a {
+    color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #c300ff;
+}
+
+.navbar-toggler {
+    background-color: #c300ff;
+}
+
+.nav-item1 {
+    margin-left: 15px;
+}
+
+/*---------*/
+
+main {
+    margin-top: 3.9%;
+    margin-left: 25px;
+}
+
+b {
+    color: #7442C8;
+}
+
+img {
+    width: 100%;
+    height: 600px;
+}
+
+.b {
+    color: #bd45b7;
+}
+
+.btn-lg {
+    background-color: #702963;
+}
+
+.btn-lg:hover {
+    background-color: #297038;
+}

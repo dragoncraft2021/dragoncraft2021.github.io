@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Форма для авторизации</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style1.css" type="text/css">
+	<script src="js/script.js"></script>
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(77571610, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/77571610" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+
+<div class="dws-wrapper">
+	<div class="dws-form">
+		<!--<input type="radio" name="tabs" id="tab-1" checked>
+		<label class="tab" for="tab-1" title="Вкладка 1">Авторизация</label>
+		<input type="radio" name="tabs" id="tab-2">
+		<label class="tab" for="tab-2" title="Вкладка 2">Регистрация</label>-->
+		<!--На js-->
+		<label class="tab active" for="tab-1" title="Вкладка 1">Авторизация</label>
+
+		<form class="tab-form active" method="post" action="">
+			<div class="box-input">
+				<input class="input" id="inputEmail" name="email" type="email" required="email">
+				<label for="inputEmail">Введите Email</label>
+			</div>
+			<div class="box-input">
+				<input class="input" id="login" name="login" type="login" required="Логин">
+				<label for="login">Введите Логин</label>
+			</div>
+			<div class="box-input">
+				<input class="input" id="inputPassword" id="pass" name="pass" type="pass" required="password">
+				<label for="inputPassword">Введите пароль</label>
+			</div>
+			<a href="" class="button" type="submit">Войти</a>
+			<ul class="social">
+				<li><a href="#"><div><i class="fa fa-facebook"></i></div></a></li>
+				<li><a href="#"><div><i class="fa fa-twitter"></i></div></a></li>
+				<li><a href="#"><div><i class="fa fa-instagram"></i></div></a></li>
+				<li><a href="#"><div><i class="fa fa-vk"></i></div></a></li>
+				<li><a href="#"><div><i class="fa fa-youtube"></i></div></a></li>
+			</ul>
+			<a href="#">Я забыл свой E-mail или пароль</a>
+			<p>У вас нету аккаунта? <a href="register.php">Зарегистрируйтесь!</a></p>
+			<div class="errorMess"></div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
